@@ -1,13 +1,13 @@
 import Header from './components/Header'
 import RequestCall from './components/RequestCall'
-import Overview from './components/Overview'
+import WhyChooseUs from './components/WhyChooseUs'
 import './App.css'
 
 const App = () => (
   <>
     <Header />
     <RequestCall />
-    <Overview />
+    <WhyChooseUs />
   </>
 )
 
