@@ -9,7 +9,9 @@ const Header = () => (
     <div className="nav-content">
       <div className="nav-menu-head">
         <GiHamburgerMenu size={27} color="#fff" />
-        <h1 className="nav-heading">IndigoLearn</h1>
+        <Link to="/" className="nav-link">
+          <h1 className="nav-heading">IndigoLearn</h1>
+        </Link>
       </div>
       <ul className="nav-menu">
         <li>

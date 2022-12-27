@@ -1,0 +1,135 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid #4f03a1;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 64px 48px 64px 48px;
+  }
+}
+.input-field {
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #d7dfe9;
+  background-color: #fff;
+  color: #64748b;
+  border-radius: 12px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+.language-dropdown {
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #d7dfe9;
+  background-color: #fff;
+  color: #64748b;
+  border-radius: 12px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .language-dropdown {
+    padding: 8px 16px 8px 4px;
+  }
+}
+.request-btn {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #4f03a1;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.call-heading {
+  color: #252525;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 35px;
+}
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+.ModalContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 458px;
+}
+@media screen and (min-width: 768px) {
+  .ModalContainer {
+    max-width: 550px;
+  }
+}
+.CloseButton {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin-top: 32px;
+  outline: none;
+  cursor: pointer;
+}
+.popup-content {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.modal-text-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px solid #4f03a1;
+  margin-bottom: 10px;
+}
+.response-text {
+  color: aquamarine;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 45px;
+  background-color: aquamarine;
+}
