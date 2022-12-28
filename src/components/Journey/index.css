@@ -2,6 +2,7 @@
   background-color: #c5ede0;
   display: flex;
   justify-content: space-around;
+  margin: 25px;
 }
 .journey-card {
   margin-left: 25px;
@@ -9,7 +10,7 @@
 .related-text {
   color: #252525;
   font-family: 'Roboto';
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
 }
 .related-description {
@@ -23,15 +24,16 @@
   border-radius: 3px;
   border-width: 0px;
   display: flex;
-  max-width: 300px;
-  max-height: 80px;
+  max-width: 150px;
+  max-height: 50px;
+  margin: 10px;
 }
 .co-presence-text {
   color: #fff;
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 10px;
+  padding: 5px;
 }
 .span-text {
   background-color: transparent;
@@ -39,4 +41,6 @@
   color: #fff;
   border-radius: 5px;
   padding: 5px;
+  font-size: 10px;
+  margin-right: 5px;
 }

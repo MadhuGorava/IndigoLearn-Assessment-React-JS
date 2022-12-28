@@ -1,6 +1,6 @@
 import './index.css'
-import {MdMenuBook} from 'react-icons/md'
-import {BsAlarm, BsLaptop, BsCalendarCheck} from 'react-icons/bs'
+import {FiCalendar, FiBookOpen} from 'react-icons/fi'
+import {BsAlarm, BsLaptop} from 'react-icons/bs'
 
 const WhyChooseUs = () => (
   <div className="why-choose-us-container">
@@ -49,28 +49,28 @@ const WhyChooseUs = () => (
       <div className="features-details">
         <p className="features-details-heading">Levels</p>
         <div className="features-details-card">
-          <MdMenuBook />
+          <FiBookOpen className="icons-style" />
           <p className="features-details-text">Three (13 papers)</p>
         </div>
       </div>
       <div className="features-details">
         <p className="features-details-heading">Duration</p>
         <div className="features-details-card">
-          <BsAlarm />
+          <BsAlarm className="icons-style" />
           <p className="features-details-text">6-30 months</p>
         </div>
       </div>
       <div className="features-details">
         <p className="features-details-heading">Exams</p>
         <div className="features-details-card">
-          <BsLaptop />
+          <BsLaptop className="icons-style" />
           <p className="features-details-text">Quarterly (Online)</p>
         </div>
       </div>
       <div className="features-details">
         <p className="features-details-heading">Exemptions</p>
         <div className="features-details-card">
-          <BsCalendarCheck />
+          <FiCalendar className="icons-style" />
           <p className="features-details-text">Upto 9 papers</p>
         </div>
       </div>

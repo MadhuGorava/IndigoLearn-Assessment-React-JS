@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10px;
 }
 .why-choose-us-container-heading {
   color: #252525;
@@ -15,6 +16,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 10px;
 }
 .features-card {
   display: flex;
@@ -22,10 +24,17 @@
   justify-content: space-around;
   align-items: center;
   margin-right: 15px;
+  background-color: #cffaed;
+  border-radius: 10px;
+  border-width: 0px;
+  min-height: 350px;
+  max-width: 300px;
 }
 .image-icon {
-  height: 45px;
-  width: 45px;
+  height: 85px;
+  width: 85px;
+  padding: 10px;
+  border-radius: 10px;
 }
 .features-card-heading {
   color: #4f03a1;
@@ -38,14 +47,23 @@
   color: #252525;
   font-family: 'Roboto';
   font-size: 18px;
-  font-weight: lighter;
+  font-weight: normal;
   text-align: center;
 }
 .features-details {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  border-top: 2px solid #4f03a1;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 10px;
+  margin-top: 5px;
+  min-width: 150px;
+  min-height: 40px;
 }
 .features-details-heading {
   color: #252525;
@@ -63,8 +81,13 @@
   color: #252525;
   font-family: 'Roboto';
   font-size: 15px;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
+  margin: 5px;
+  margin-top: 0px;
+}
+.icons-style {
+  margin: 15px;
 }
 .hr-line {
   background-color: #4f03a1;

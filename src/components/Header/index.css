@@ -9,9 +9,14 @@
   align-items: center;
   justify-content: space-between;
   width: 90%;
-  max-width: 1110px;
+  max-width: 1000px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+@media screen and (max-width: 768px) {
+  .nav-content {
+    max-width: 700px;
+  }
 }
 .nav-menu-head {
   display: flex;

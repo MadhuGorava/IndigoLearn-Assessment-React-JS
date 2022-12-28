@@ -1,3 +1,4 @@
+import RequestCall from '../RequestCall'
 import './index.css'
 
 const Journey = () => (
@@ -14,6 +15,7 @@ const Journey = () => (
         <p className="span-text">ACCA</p>
       </div>
     </div>
+    <RequestCall />
   </div>
 )
 
