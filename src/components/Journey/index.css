@@ -1,0 +1,42 @@
+.journey-container {
+  background-color: #c5ede0;
+  display: flex;
+  justify-content: space-around;
+}
+.journey-card {
+  margin-left: 25px;
+}
+.related-text {
+  color: #252525;
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+}
+.related-description {
+  color: #252525;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: normal;
+}
+.text-card {
+  background-color: #de0747;
+  border-radius: 3px;
+  border-width: 0px;
+  display: flex;
+  max-width: 300px;
+  max-height: 80px;
+}
+.co-presence-text {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+}
+.span-text {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}

@@ -70,6 +70,7 @@ const WhyChooseUs = () => (
       <div className="features-details">
         <p className="features-details-heading">Exemptions</p>
         <div className="features-details-card">
+          <BsCalendarCheck />
           <p className="features-details-text">Upto 9 papers</p>
         </div>
       </div>
